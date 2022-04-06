@@ -1,3 +1,7 @@
+body{
+  background-color: #00000098;
+}
+
 .wrapper{
     width: 1500px;
     flex-wrap: wrap;
@@ -14,24 +18,22 @@
     line-height: 1.5;
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
       helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-    color: #444;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
 }
 .card {
         --card-blend-mode: overlay;
          --card-blend-mode: multiply;
-      
         background-color: #fff;
-        border-radius: 0.5rem;
+        border-radius: 0.7rem;
         padding-bottom: 1rem;
         overflow: hidden;
         box-sizing: border-box;
         margin-top: 1rem;
         font-size: 1.25rem;
         color: inherit;
-
-      
-      
-
+        border: 2px solid rgb(0, 0, 0);
 }
 img {
     width: 100%;
@@ -42,8 +44,6 @@ img {
     animation-name: zoom;
     animation-duration: 0.5s;
   }
-
-
 img img{
     width: 380px;
 }
@@ -55,15 +55,15 @@ img img{
 .btn {
     margin-top: 20px;
     align-items: center;
-    background-color: #00f2ff;
+    background-color: #ff0000;
     border: 2px solid #111;
     border-radius: 8px;
     box-sizing: border-box;
-    color: #111;
+    color: #fff;
     cursor: pointer;
     display: flex;
     font-family: Inter,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     height: 48px;
     justify-content: center;
     line-height: 24px;
