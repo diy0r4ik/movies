@@ -1,9 +1,10 @@
 body{
   background-color: #00000098;
+  /* width: 100%; */
 }
 
 .wrapper{
-    width: 1500px;
+    width: 1400px;
     flex-wrap: wrap;
     list-style: none;
     grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
